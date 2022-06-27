@@ -7,6 +7,7 @@
     "Step 5": "Login and Register pages partially done",
 
     "notes": [
+      "This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.",
       "1) To add route, I ran npm i react-router-dom",
       "2) structure: <Suspense><BrowserRouter><Routes><Route>"
     ]
