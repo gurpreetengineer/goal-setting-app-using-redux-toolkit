@@ -1,5 +1,14 @@
-[{
-  "Step 1": "Created repo",
-  "Step 2": "Cleaned the code",
-  "Step 3": "Added 3 pages: Dashboard, Login, and register"
-}]
+[
+  {
+    "Step 1": "Created repo",
+    "Step 2": "Cleaned the code",
+    "Step 3": "Added 3 pages: Dashboard, Login, and register and routes",
+    "Step 4": "Added Header with login and register",
+    "Step 5": "Login and Register pages partially done",
+
+    "notes": [
+      "1) To add route, I ran npm i react-router-dom",
+      "2) structure: <Suspense><BrowserRouter><Routes><Route>"
+    ]
+  }
+]
