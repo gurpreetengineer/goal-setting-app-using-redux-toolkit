@@ -1,0 +1,14 @@
+[
+  {
+    "0": "npm init - initialization",
+    "1": "npm i express dotenv mongoose colors  ,  npm i -D nodemon",
+    "2": "add script in package.json, .gitignore",
+    "3": "import express and dotenv in server.js, and .env file, listening to port",
+    "4": "Adding routes/goalRoutes.js -> module.exports, router",
+    "4.1": "server.js-> the route is followed after app.use('route', require('././')",
+    "4.2": "goalRoutes.js -> ",
+
+
+    "Notes": ["React FE <> REST API <> Express", ""]
+  }
+]
