@@ -1,13 +1,22 @@
 [
   {
+    "-1": "Add module.exports = {} at ALL TIMES",
+
     "0": "npm init - initialization",
+
     "1": "npm i express dotenv mongoose colors  ,  npm i -D nodemon",
-    "2": "add script in package.json, .gitignore",
+    "2": "Add script in package.json, .gitignore",
     "3": "import express and dotenv in server.js, and .env file, listening to port",
-    "4": "Adding routes/goalRoutes.js -> module.exports, router",
+    "4": "Add routes/goalRoutes.js -> module.exports, router",
     "4.1": "server.js-> the route is followed after app.use('route', require('././')",
     "4.2": "goalRoutes.js -> ",
     "5": "if the routes are same, we can chain them using      router.route('/path/here')    .get().post().put().delete()",
+    "6": "Add error handler middleware",
+    "7": "Mongoose returns a promise with the info. So, by default, you can use .then().catch() or",
+    "7.1": "You can make controllers async, and use try {} catch {} blocks",
+    "7.2": "npm i express-async-handler",
+    "7.3": "Wrap entire controller functions body with     asyncHandler",
+
 
 
     "Notes": ["React FE <> REST API <> Express", 

@@ -1,4 +1,5 @@
 const express = require('express');
+const { errorHandler } = require('./middleware/errorMiddleware');
 const dotenv = require('dotenv').config();
 const { env } = process
 
@@ -12,5 +13,7 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use('/api/goals', require('./routes/goalRoutes'))
 
-app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
+// use a common middleware
+app.use(errorHandler)
 
+app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
