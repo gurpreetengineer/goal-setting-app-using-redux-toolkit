@@ -17,14 +17,21 @@
     "7.2": "npm i express-async-handler",
     "7.3": "Wrap entire controller functions body with     asyncHandler",
 
-
-
-    "Notes": ["React FE <> REST API <> Express", 
-      "1st file => app.use()", 
+    "Notes": [
+      "React FE <> REST API <> Express",
+      "1st file => app.use()",
       "further files => const router = express.Router(); router.get(), router.post(), router... ()",
       "params: router.get,post,etc('route', [middleware], controller)",
       "controller: a function (req, res, next) => {}",
       "req, res, next: these are provided by the express itself"
-    ]
+    ],
+    "Reference_links": {
+      "R1_express_async_handler": "https://stackoverflow.com/questions/56973265/what-does-express-async-handler-do"
+    },
+    "images": {
+      "1_we_have_to_add_express_json_in_server_file": "No output of body",
+      "2_we_have_added_express_json_in_server_file": "Got output of body after adding",
+      "3_express_async_handler": "[Refer R1_express_async_handler link as well] - Usage of this handler"
+    }
   }
 ]
