@@ -9,6 +9,12 @@
     "4.2": "goalRoutes.js -> ",
 
 
-    "Notes": ["React FE <> REST API <> Express", ""]
+    "Notes": ["React FE <> REST API <> Express", 
+      "1st file => app.use()", 
+      "further files => const router = express.Router(); router.get(), router.post(), router... ()",
+      "params: router.get,post,etc('route', [middleware], controller)",
+      "controller: a function (req, res, next) => {}",
+      "req, res, next: these are provided by the express itself"
+    ]
   }
 ]
