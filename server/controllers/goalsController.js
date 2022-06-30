@@ -1,22 +1,23 @@
 /**
  * @desc    Get Goals
- * @route   /api/goals
+ * @route   GET /api/goals
  * @access  Private  
  * @params  req, res, next 
  */
 const getGoals = (req, res, next) => {
+  console.log('req.body', req.body);
   res.status(200).send({
     message: "We got goals, Bruh!"
   })
 }
 
 /**
- * @desc    Set Goals
- * @route   /api/goals
+ * @desc    Set Goal
+ * @route   POST /api/goals
  * @access  Private  
  * @params  req, res, next 
  */
-const setGoals = (req, res, next) => {
+const setGoal = (req, res, next) => {
   res.status(200).send({
     message: "Setting the goals, Bruh!"
   })
@@ -24,7 +25,7 @@ const setGoals = (req, res, next) => {
 
 /**
  * @desc    Update Goal
- * @route   /api/goals/:id
+ * @route   PUT /api/goals/:id
  * @access  Private  
  * @params  req, res, next 
  */
@@ -36,7 +37,7 @@ const updateGoal = (req, res, next) => {
 
 /**
  * @desc    Delete Goal
- * @route   /api/goals/:id
+ * @route   DELETE /api/goals/:id
  * @access  Private  
  * @params  req, res, next 
  */
@@ -48,7 +49,7 @@ const deleteGoal = (req, res, next) => {
 
 module.exports = {
   getGoals,
-  setGoals,
+  setGoal,
   updateGoal,
   deleteGoal
 }

@@ -7,6 +7,7 @@
     "4": "Adding routes/goalRoutes.js -> module.exports, router",
     "4.1": "server.js-> the route is followed after app.use('route', require('././')",
     "4.2": "goalRoutes.js -> ",
+    "5": "if the routes are same, we can chain them using      router.route('/path/here')    .get().post().put().delete()",
 
 
     "Notes": ["React FE <> REST API <> Express", 
