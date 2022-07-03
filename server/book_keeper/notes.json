@@ -26,6 +26,13 @@
     "9.1": "Models from mongoose.Schema({}) provides in-built functions for DB management, document CRUD operations, etc.",
     "9.2": "Adding {timestamps:true} will autimatically generate createdAt and updateAt columns in the document",
 
+    "10": "CRUD done",
+    "10.1": "for update you can use findByIdAndUpdate",
+    "10.2": "for delete you can use findByIdAndDelete",
+    "10.3": "for delete there is an alternative. For a specific goal, in this application, there was goal.remove()",
+    "10.3.1": ".remove() function is provided by the mongoDb itself",
+    "10.3.2": "Refer to [ R3_mongodb_remove_doc_w3school ] for more info on remove function in mongo",
+
     "Notes": [
       "React FE <> REST API <> Express",
       "1st file => app.use()",
@@ -36,7 +43,8 @@
     ],
     "Reference_links": {
       "R1_express_async_handler": "https://stackoverflow.com/questions/56973265/what-does-express-async-handler-do",
-      "R2_models_give_func_for_mongodb": "https://mongoosejs.com/docs/models.html"
+      "R2_models_give_func_for_mongodb": "https://mongoosejs.com/docs/models.html",
+      "R3_mongodb_remove_doc_w3school": "https://www.w3schools.com/nodejs/nodejs_mongodb_remove.asp#:~:text=Delete%20Record,()%20or%20deleteMany()%20instead."
     },
     "images": {
       "1_we_have_to_add_express_json_in_server_file": "No output of body",
