@@ -17,6 +17,14 @@
     "7.2": "npm i express-async-handler",
     "7.3": "Wrap entire controller functions body with    asyncHandler before working with the database",
 
+    "8": "Connecting to mongo db",
+    "8.1": "Create a config/db.js file and export an `async` function which connects to the db using MONGO_URI from the env",
+    "8.2": "call that function in the server.js and it will get connected",
+    "8.3": "if it fails, check for (1) DB permissions and ID address in mongodb atlas, (2) Check if MONGO_URI is correct",
+
+    "9": "Models in MERN [REFER to R2_models_give_func_for_mongodb below]",
+    "9.1": "Models from mongoose.Schema({}) provides in-built functions for DB management, document CRUD operations, etc.",
+
     "Notes": [
       "React FE <> REST API <> Express",
       "1st file => app.use()",
@@ -26,7 +34,8 @@
       "req, res, next: these are provided by the express itself"
     ],
     "Reference_links": {
-      "R1_express_async_handler": "https://stackoverflow.com/questions/56973265/what-does-express-async-handler-do"
+      "R1_express_async_handler": "https://stackoverflow.com/questions/56973265/what-does-express-async-handler-do",
+      "R2_models_give_func_for_mongodb": "https://mongoosejs.com/docs/models.html"
     },
     "images": {
       "1_we_have_to_add_express_json_in_server_file": "No output of body",
