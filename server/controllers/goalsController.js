@@ -25,6 +25,10 @@ const getGoals = asyncHandler(async (req, res, next) => {
  * @params  req, res, next 
  */
 const setGoal = asyncHandler(async (req, res, next) => {
+  if (!req.body.text) {
+    res.statusCode(400)
+    throw new Error('Please, enter a text field');
+  }
   res.status(200).send({
     message: "Setting the goals, Bruh!"
   })
