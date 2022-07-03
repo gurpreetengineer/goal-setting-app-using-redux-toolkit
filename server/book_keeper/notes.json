@@ -24,6 +24,7 @@
 
     "9": "Models in MERN [REFER to R2_models_give_func_for_mongodb below]",
     "9.1": "Models from mongoose.Schema({}) provides in-built functions for DB management, document CRUD operations, etc.",
+    "9.2": "Adding {timestamps:true} will autimatically generate createdAt and updateAt columns in the document",
 
     "Notes": [
       "React FE <> REST API <> Express",
