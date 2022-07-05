@@ -1,7 +1,8 @@
 [
   {
     "video1": {
-      "Link": "https://www.youtube.com/watch?v=-0exw-9YJBo&t=2180s",
+      "topic": "",
+      "link": "https://www.youtube.com/watch?v=-0exw-9YJBo&t=2180s",
       "notes": {
         "-1": "Add module.exports = {} at ALL TIMES",
 
@@ -54,6 +55,15 @@
           "2_we_have_added_express_json_in_server_file": "Got output of body after adding",
           "3_express_async_handler": "[Refer R1_express_async_handler link as well] - Usage of this handler"
         }
+      }
+    },
+    "video2": {
+      "topic": "",
+      "link": "",
+      "notes": {
+        "0": "",
+        "Reference_links": {},
+        "images": {}
       }
     }
   }
