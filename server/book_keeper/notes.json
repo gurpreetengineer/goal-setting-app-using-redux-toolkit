@@ -1,7 +1,7 @@
 [
   {
     "video1": {
-      "topic": "",
+      "topic": "Learn The MERN Stack - Express & MongoDB Rest API",
       "link": "https://www.youtube.com/watch?v=-0exw-9YJBo&t=2180s",
       "notes": {
         "-1": "Add module.exports = {} at ALL TIMES",
@@ -58,10 +58,12 @@
       }
     },
     "video2": {
-      "topic": "",
-      "link": "",
+      "topic": "Learn The MERN Stack - JWT Authentication",
+      "link": "https://www.youtube.com/watch?v=enopDSs3DRw",
       "notes": {
-        "0": "",
+        "0": "Create APIs for users at /api/users/{register/login/me} POST, POST, GET respectively",
+        "1": "npm i bcrypt jsonwebtoken",
+        "2": "",
         "Reference_links": {},
         "images": {}
       }
