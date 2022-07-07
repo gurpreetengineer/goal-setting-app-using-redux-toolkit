@@ -64,7 +64,10 @@
         "0": "Create APIs for users at /api/users/{register/login/me} POST, POST, GET respectively",
         "1": "npm i bcrypt jsonwebtoken",
         "2": "",
-        "Reference_links": {},
+        "Reference_links": {
+          "R1_git_gitignore_changes": "https://stackoverflow.com/questions/30696930/how-to-hide-env-file-from-github",
+          "R2_r1_remove_cache_after_": "https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository/1139797#1139797"
+        },
         "images": {}
       }
     }
