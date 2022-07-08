@@ -93,8 +93,13 @@ const loginUser = asyncHandler(async (req, res) => {
  * @params  req, res
  */
 const getMe = asyncHandler(async (req, res) => {
+  const { _id, name, email } = req.user
   res.status(200).send({
-    msg: 'Here\'s the user\'s information.'
+    msg: 'Here\'s the user\'s information.',
+    id: _id,
+    name,
+    email,
+    userInfor: req.user
   })
 })
 
