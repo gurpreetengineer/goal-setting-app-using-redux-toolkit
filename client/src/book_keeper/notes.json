@@ -1,21 +1,26 @@
 [
   {
-    "Step 1": "Created repo",
-    "Step 2": "Cleaned the code",
-    "Step 3": "Added 3 pages: Dashboard, Login, and register and routes",
-    "Step 4": "Added Header with login and register",
-    "Step 5": "Login and Register pages partially done",
+    "video1": {
+      "topic": "Learn The MERN Stack - Frontend Authentication | Redux Toolkit",
+      "link": "https://www.youtube.com/watch?v=mvfsC66xqj0",
+      "notes": {
+        "0": "Created repo",
+        "1": "Cleaned the code",
+        "2": "Added 3 pages: Dashboard, Login, and register and routes",
+        "2.1": "Added Header with login and register",
+        "3": "Login and Register pages partially done", 
 
-    "notes": [
-      "This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.",
-      "1) To add route, I ran npm i react-router-dom",
-      "2) structure: <Suspense><BrowserRouter><Routes><Route>"
-    ],
-    "github": [
-      "git remote set-url origin 'URL_HERE.git'"
-    ],
-    "Loader": [
-      "https://loading.io/"
-    ]
+        "Reference_links": {},
+        "images": {},
+
+        "Notes": [
+          "This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.",
+          "1) To add route, I ran npm i react-router-dom",
+          "2) structure: <Suspense><BrowserRouter><Routes><Route>"
+        ],
+        "github": ["git remote set-url origin 'URL_HERE.git'"],
+        "Loader": ["https://loading.io/"]
+      }
+    }
   }
 ]
