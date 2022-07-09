@@ -1,5 +1,6 @@
 [
   {
+    "CONDITION": "!!! DO CHECK THE BEARER TOKENS OF RESPECTIVE IDs before doing CRUD on goals !!!",
     "Goals": {
       "http://localhost:5000/api/goals ": {
         "type": "GET",
@@ -26,6 +27,27 @@
         --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzgzYTBiNWNmZjVkMzA1NDVlZjE0YiIsImlhdCI6MTY1NzM5MDU1OCwiZXhwIjoxNjU5OTgyNTU4fQ.tFmhBXLmeLdIdaEcezNe6gjknQd_WP0pJIwbL_0jt1I'",
       }
     },
-    "Users": {}
+    "Users": {
+      "http://localhost:5000/api/users/login": {
+        "type": "POST",
+        "URL": "curl --location --request POST 'http://localhost:5000/api/users/login' \
+        --header 'Content-Type: application/x-www-form-urlencoded' \
+        --data-urlencode 'email=gb.garrybamrah@gmail.com12' \
+        --data-urlencode 'password=12345678'"
+      },
+      "http://localhost:5000/api/users/register": {
+        "type": "POST",
+        "URL": "curl --location --request POST 'http://localhost:5000/api/users/register' \
+        --header 'Content-Type: application/x-www-form-urlencoded' \
+        --data-urlencode 'name=Garry Bamrah' \
+        --data-urlencode 'email=gb.garrybamrah@gmail.com' \
+        --data-urlencode 'password=12345678'"
+      },
+      "http://localhost:5000/api/users/me": {
+        "type": "GET",
+        "URL": "curl --location --request GET 'http://localhost:5000/api/users/me' \
+        --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyYzgzYTBiNWNmZjVkMzA1NDVlZjE0YiIsImlhdCI6MTY1NzI4OTIyOCwiZXhwIjoxNjU5ODgxMjI4fQ.fVYI3mitIWdMZ9Pd1d4XR-3h9VpOS1tLDI5-czT9b8E'"
+      },
+    }
   }
-]
+];
