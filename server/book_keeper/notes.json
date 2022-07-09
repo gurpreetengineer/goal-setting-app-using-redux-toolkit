@@ -37,6 +37,8 @@
         "10.3.1": ".remove() function is provided by the mongoDb itself",
         "10.3.2": "Refer to [ R3_mongodb_remove_doc_w3school ] for more info on remove function in mongo",
 
+        "11": "VIDEO 1 completed on JULY 03, 2022",
+
         "Notes": [
           "React FE <> REST API <> Express",
           "1st file => app.use()",
@@ -76,12 +78,25 @@
         "6.2": "protect: This checks if the JWT token is valid or invalid",
         "6.3": "This used jwt.verify(token, SECRET) which will return ID if everything worked fine else throw the error",
         "6.4": "Remember to put next() in the end of try{} block to let other middlewares function",
+        "7": "By now it should be clear that middleware is/are function(s) run between the client request and the server answer. The most common middleware functionality needed are error managing, database interaction, getting info from static files or other resources.",
+
+        "8": "Now, Goals APIs are protected using protect middleware",
+        "8.1": "We need to pass the authentication token 'Bearer token' for the verification of the user",
+        "8.2": "You won't be able to delete or update if you have no JWT token or wrong token",
+        "8.3": "PUT and DELETE functionalities are working successfully",
+
+        "9": "VIDEO 1 and VIDEO 2 are completed now.",
+        "10": "BACKEND DONE ON JULY 09, 2022: 23:48:40",
 
         "Reference_links": {
           "R1_git_gitignore_changes": "https://stackoverflow.com/questions/30696930/how-to-hide-env-file-from-github",
-          "R2_remove_cache_after_r1": "https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository/1139797#1139797"
+          "R2_remove_cache_after_r1": "https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository/1139797#1139797",
+          "R3_what_does_a_middleware_and_app_use_actually_mean_in_expressjs": "https://stackoverflow.com/questions/7337572/what-does-middleware-and-app-use-actually-mean-in-expressjs",
+          "R4_String()_vs_toString()": "https://stackoverflow.com/questions/3945202/whats-the-difference-between-stringvalue-vs-value-tostring"
         },
-        "images": {}
+        "images": {
+          "4_middelware_explanation": "from [R3... hyperlink] it defines the functionality of the middleware and values for req, res in it."
+        }
       }
     }
   }
