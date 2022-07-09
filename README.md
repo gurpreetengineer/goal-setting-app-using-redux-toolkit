@@ -15,7 +15,7 @@ Rename the .envexample to .env and add your MONGO_URI
 npm install
 
 # Frontend deps
-cd frontend
+cd client
 npm install
 ```
 
@@ -23,6 +23,11 @@ npm install
 
 ```
 npm run server
+```
+
+### To run Client and Server together
+```
+npm run dev
 ```
 
 ## Demo
