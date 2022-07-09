@@ -11,10 +11,9 @@ const protect = asyncHandler(async (req, res, next) => {
     try {
       token = req.headers.authorization.split(' ')[1];
 
-
       /**
        * if you check on jwt.io, by putting token in input field
-       * you'll see that it return and ID, initial date and expiry
+       * you'll see that it return ID, initial date and expiry
        */
       const decoded = jwt.verify(token, env.JWT_SECRET)
 

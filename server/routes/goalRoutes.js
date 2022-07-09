@@ -5,7 +5,11 @@ const {
   setGoal, 
   updateGoal, 
   deleteGoal 
-} = require('../controllers/goalsController')
+} = require('../controllers/goalsController');
+const { protect } = require('../middleware/authMiddleware');
+
+// Adding middleware before the routes takes place
+router.use(protect);
 
 router.route('/').get(getGoals).post(setGoal)
 router.route('/:id').put(updateGoal).delete(deleteGoal)
