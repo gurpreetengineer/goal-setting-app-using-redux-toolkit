@@ -6,6 +6,7 @@ This is the goalsetter app from the practiced from [Learn the MERN Stack](https:
 
 ## Usage
 
+[yet to be added, you can directly rename .env for now]
 Rename the .envexample to .env and add your MONGO_URI
 
 ### Install dependencies
